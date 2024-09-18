@@ -1,0 +1,4 @@
+document.querySelector(".btn").addEventListener("click", function() {
+    document.body.style.backgroundColor = "#f4f4f4";
+});
+<script src="app.js"></script>

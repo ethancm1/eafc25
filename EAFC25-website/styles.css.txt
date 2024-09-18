@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo {
+    font-size: 2em;
+    font-weight: bold;
+    float: left;
+}
+
+header nav ul {
+    list-style: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.5em;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-buttons .btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+#features .feature-box {
+    display: inline-block;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#features .feature-box img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Add the rest of the CSS here */
+@media (max-width: 768px) {
+   header nav ul {
+       display: block;
+       text-align: center;
+   }
+
+   #hero h2 {
+       font-size: 2em;
+   }
+
+   #features .feature-box {
+       width: 100%;
+       margin-bottom: 20px;
+   }
+}
